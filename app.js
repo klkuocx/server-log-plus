@@ -20,7 +20,7 @@ function serverLog(req, res, next) {
 function timeStamps() {
   const timeNow = new Date()
   const year = timeNow.getFullYear()
-  const month = timeNow.getMonth()
+  const month = timeNow.getMonth() + 1
   const date = timeNow.getDate()
   const hour = timeNow.getHours()
   const min = timeNow.getMinutes()
